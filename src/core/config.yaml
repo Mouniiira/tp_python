@@ -1,0 +1,10 @@
+paths:
+  raw_data: "data/raw/yellow_tripdata_2023-01.parquet"
+
+reproducibility:
+  seed: 42
+
+model:
+  hyperparameters:
+    learning_rate: 0.1
+    n_estimators: 100
